@@ -1,7 +1,7 @@
 body{
    font-family: 'Poppins', sans-serif;}
 
-.bg-honda-header-info{
+.bg-honda-header-info,nav{
    background-color: #264653;
 }
 
