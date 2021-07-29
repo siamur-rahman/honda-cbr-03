@@ -328,6 +328,75 @@
       <!-- \\\///question section end\\\ /// -->
 
 
+      <!-- \\\\\\form section /////// -->
+      <section class="container fixed mx-5  ">
+         <div class="accordion-item fixed mx-5 ">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+               <button class="accordion-button honda-bg-success collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseNEW" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  SIGN UP TO GET THE LEATEST UPDATES
+               </button>
+            </h2>
+            <div id="panelsStayOpen-collapseNEW" class="accordion-collapse collapse"
+               aria-labelledby="panelsStayOpen-headingTwo">
+               <div class="accordion-body">
+                  <form class="row g-3">
+                     <div class="col-lg-6">
+                        <label for="validationServer01" class="form-label">First name</label>
+                        <input type="text" class="form-control is-valid" id="validationServer01" value="First Name"
+                           required>
+
+                     </div>
+                     <div class="col-lg-6">
+                        <label for="validationServer02" class="form-label">Last name</label>
+                        <input type="text" class="form-control is-valid" id="validationServer02" value="Last Name"
+                           required>
+
+                     </div>
+
+                     <div class="col-lg-6">
+                        <label for="validationServer04" class="form-label">Email</label>
+                        <select class="form-select is-invalid" id="validationServer04"
+                           aria-describedby="validationServer04Feedback" required>
+                           <option selected disabled value=""></option>
+                           <option></option>
+                        </select>
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                           Please select a valid state.
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <label for="validationServer05" class="form-label">Zip</label>
+                        <input type="text" class="form-control is-invalid" id="validationServer05"
+                           aria-describedby="validationServer05Feedback" required>
+
+                        <div id="validationServer05Feedback" class="invalid-feedback">
+                           Please provide a valid zip.
+                        </div>
+                     </div>
+                     <div class="col-12">
+                        <div class="form-check">
+                           <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+                              aria-describedby="invalidCheck3Feedback" required>
+                           <label class="form-check-label" for="invalidCheck3">
+                              Agree to terms and conditions
+                           </label>
+                           <div id="invalidCheck3Feedback" class="invalid-feedback">
+                              You must agree before submitting.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
    </main>
 
 
